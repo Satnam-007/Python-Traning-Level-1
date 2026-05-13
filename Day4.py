@@ -68,7 +68,7 @@ print(Satnam(8,4))
 # File Handling
 # Either Txt  csv Json file
 # Exit , malupulation, write, Read, Store, Create,Update,Save
-# touch data.txt
+# touch data.txt(Make new file)
 # mkdir data
 # We made a file in Terminal using touch data.txt after that we use this code to see what written in that file in terminal.
 file = open("data.txt","r")
@@ -83,3 +83,7 @@ file.close()
 # Use echo "Hello" > data.txt(use in terminal) ,it clear all data
 # echo "My name is satnam" >> data.txt (used to add new lines)
 # cat data.txt (use in terminal)
+# rm data.txt(Remove file)
+# used to remove file without terminal
+import os 
+os.remove("data.txt")

@@ -36,7 +36,13 @@
 # print(s)
 # file.close()
 
-file = open("data.txt","w")
-s= file.write("I'm 20 year old")
-print(s)
-file.close()
+# file = open("data.txt","w")
+# s= file.write("I'm 20 year old")
+# print(s)
+# file.close()
+# Using system
+number=[2,4,6,8]
+try:
+ print("the number ",number[7])
+except  Exception as ettt :
+ print("Invalid bound ans",ettt)   
